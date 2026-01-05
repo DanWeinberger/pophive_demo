@@ -1,17 +1,44 @@
 {
-  "example_variable": {
-    "id": "example_variable",
-    "short_name": "",
-    "long_name": "",
-    "category": "",
-    "short_description": "",
-    "long_description": "",
-    "statement": "",
-    "measure_type": "",
-    "unit": "",
-    "time_resolution": "",
-    "restrictions": "",
-    "sources": [],
-    "citations": []
+  "respnet_rate_{variant}": {
+    "full_name": "respnet_rate_{variant}",
+    "measure": "respnet_rate_{variant}",
+    "short_name": "respnet_rate: {variant}",
+    "long_name": "Hospitalization rate in RESP-NET sites for {variant.short_name}",
+    "category": "Respiratory Diseases",
+    "short_description": "Hospitalization rate of {variant.short_name}.",
+    "long_description": "From the source: RESPNET is a network that conducts active, population-based surveillance for laboratory-confirmedRSV, flu, and COVID-19-associated hospitalizations among children and adults. COVID-NET, along with the Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) and the Influenza Hospitalization Surveillance Network (FluSurv-NET), comprise the Respiratory Virus Hospitalization Surveillance Network (RESP-NET). The RESP-NET platforms have overlapping surveillance areas and use similar methods to collect data. Hospitalization rates show how many people in the surveillance area are hospitalized with COVID-19,, flu and RSV compared to the total number of people residing in that area. \n\nData are preliminary and subject to change as more data become available. Data will be updated weekly..",
+    "statement": "The viral activity level of {variant.short_name} in respnet_rate is {value}.",
+    "measure_type": "Rates",
+    "unit": "Cases/100,000",
+    "time_resolution": "week",
+    "variants": {
+      "rsv": {
+        "default": "rsv",
+        "short_name": "RSV",
+        "subcategory": "Respiratory Syncytial Virus",
+        "sources": [
+          {
+            "id": "RESP-NET",
+            "location": "respnet_rate RSV State and Territory Trends",
+            "location_url": "https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-RSV-Hospitali/29hc-w46k/"
+          }
+        ]
+      },
+      "covid": {
+        "default": "covid",
+        "short_name": "COVID-19",
+        "location_url": "https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-COVID-19-Hosp/twtx-bfcw/about_data",
+        "subcategory": "COVID-19"
+          }
+    }
+  },
+  "_sources": {
+    "respnet": {
+      "name": "Respiratory Virus Hospitalization Surveillance Network (RESP-NET)",
+      "url": "https://www.cdc.gov/resp-net/dashboard/index.html",
+      "organization": "Centers for Disease Control and Prevention",
+      "organization_url": "https://www.cdc.gov",
+      "description": "RESP-NET is made up of three networks that monitor laboratory-confirmed hospitalizations associated with influenza (FluSurv-NET), COVID-19 (COVID-NET), and RSV (RSV-NET). The rates presented on the RESP-NET interactive dashboard can be used to follow trends and comparisons of influenza, COVID-19, and RSV-associated hospitalizations in different demographic groups and over time. These data are made available by the CDC."
+    }
   }
 }
