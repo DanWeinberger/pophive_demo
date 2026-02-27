@@ -4,8 +4,8 @@
   "scripts": [
     {
       "path": "build.R",
-      "last_run": "2026-02-22 04:21:12",
-      "run_time": 0.376,
+      "last_run": "2026-02-27 04:18:11",
+      "run_time": 0.334,
       "last_status": {
         "log": [],
         "success": true
@@ -29,6 +29,9 @@
     }
   },
   "dist_state": {
-    "./data/bundle_respiratory/dist/data.parquet": "416be68c1cdb0dfdff8a84240efe3383"
+    "./data/bundle_respiratory/dist/data.parquet": "416be68c1cdb0dfdff8a84240efe3383",
+    "./data/epic/standard/datapackage.json": "bf8f0e0ec8cb1d2169154247a81384d0",
+    "./data/gtrends/standard/datapackage.json": "1fa9f901c08707191b20c78222715d31",
+    "./data/wastewater/standard/datapackage.json": "ff0efde126154104692e94bd28c23957"
   }
 }
