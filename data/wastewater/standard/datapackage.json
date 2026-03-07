@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 215667,
+      "bytes": 216199,
       "encoding": "ISO-8859-1",
-      "md5": "568490a06ac1b261e8d55831acfad8c1",
+      "md5": "3b5b9a990d25225e22e768e4837226ec",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "109843b8a03df04cf34440f02ce0a6b00272acca",
           "fc74eec36dd6f9977a21ffc614d1597284cc1229",
           "6e0915112834a54965fe533def0d25d1668ae0d3",
           "65257ba31a38da66e643c5fb550cd911178cc4cd",
@@ -78,6 +79,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
@@ -109,6 +111,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Feb 28 03:58:34 2026 +0000",
           "Sat Feb 21 04:10:04 2026 +0000",
           "Sat Feb 14 04:13:13 2026 +0000",
           "Sat Feb 7 04:11:26 2026 +0000",
@@ -155,6 +158,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -226,28 +230,28 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-28 03:58:26.492812",
-      "last_modified": "2026-02-28 03:58:26.492812",
+      "created": "2026-03-07 04:03:52.948022",
+      "last_modified": "2026-03-07 04:03:52.948022",
       "vintage": {},
-      "row_count": 10734,
+      "row_count": 10785,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 10682,
-            "time_range": [35, 69],
+            "duplicates": 10733,
+            "time_range": [35, 217],
             "type": "integer",
             "missing": 0,
-            "mean": 29.774455,
-            "sd": 16.253452,
+            "mean": 29.773204,
+            "sd": 16.25442,
             "min": 1,
             "max": 66
           },
           {
             "name": "time",
-            "duplicates": 10517,
-            "time_range": [35, 69],
+            "duplicates": 10567,
+            "time_range": [35, 217],
             "type": "string",
             "missing": 0,
             "table": {
@@ -467,15 +471,16 @@
               "2026-01-31": 52,
               "2026-02-07": 52,
               "2026-02-14": 52,
-              "2026-02-21": 52
+              "2026-02-21": 52,
+              "2026-02-28": 51
             }
           },
           {
             "name": "wastewater_covid",
-            "duplicates": 592,
+            "duplicates": 643,
             "time_range": [35, 69],
             "type": "float",
-            "missing": 266,
+            "missing": 317,
             "mean": 5.994374,
             "sd": 5.493827,
             "min": 0.03373,
@@ -483,21 +488,21 @@
           },
           {
             "name": "wastewater_flua",
-            "duplicates": 6910,
-            "time_range": [35, 69],
+            "duplicates": 6930,
+            "time_range": [35, 217],
             "type": "float",
             "missing": 2684,
-            "mean": 4.212925,
-            "sd": 12.30838,
+            "mean": 4.203487,
+            "sd": 12.338896,
             "min": 0.088399,
             "max": 817.974761
           },
           {
             "name": "wastewater_rsv",
-            "duplicates": 6973,
+            "duplicates": 7024,
             "time_range": [14, 69],
             "type": "float",
-            "missing": 2711,
+            "missing": 2762,
             "mean": 3.943413,
             "sd": 32.084138,
             "min": 0.042245,
@@ -505,7 +510,7 @@
           }
         ]
       },
-      "sha512": "e8ce356f6348ce8c1b16d584be3afe97698e427218da7475310ba9eaabb34f70a13b1e23175f41b722ec5c818f66989188facc46a8320447c8f6c727e91d6d6b"
+      "sha512": "5d3cbeeedc7cea531f2934934d9eb358fbd8cbedc091f27155d2e1d4ed5ad4d49ff8af507127714de52b643383ee69c872d156b4ad316823f239c30778dccef4"
     }
   ],
   "measure_info": {
