@@ -11,12 +11,13 @@
     {
       "bytes": 716478,
       "encoding": "ISO-8859-1",
-      "md5": "4b1d370003e62d908858437b9c702d26",
+      "md5": "4c1cbc1bd1c67ac830f04ff57b7f41f4",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "c9b1136e57da90a44759ae5929776b69b78afd8d",
           "50f92ede3f7d55d95dc5c6d5b21589d57a8ddcd9",
           "4573147644ac63bcd933a4f2563715073b86262d",
           "91312cf60caa0ae7b742305da3f565927a7e70db",
@@ -123,6 +124,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -157,6 +159,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Wed Mar 11 04:12:49 2026 +0000",
           "Sun Mar 8 04:14:20 2026 +0000",
           "Sat Mar 7 04:04:01 2026 +0000",
           "Sun Mar 1 04:25:58 2026 +0000",
@@ -263,6 +266,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "local rebuild",
           "scheduled data build",
           "scheduled data build",
@@ -307,8 +311,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-11 04:12:47.651012",
-      "last_modified": "2026-03-11 04:12:47.651012",
+      "created": "2026-03-12 04:25:45.19934",
+      "last_modified": "2026-03-12 04:25:45.19934",
       "vintage": "2025-07-14",
       "row_count": 27923,
       "entity_count": 56,
@@ -1779,7 +1783,7 @@
           "max": 2232.014295
         }
       },
-      "sha512": "40b1d16de5b5a5d34192ef0b84bb52b26e9a874525a00b23964a5e9f4f8e31b85a1f425bee3ce932c2372e179c9f439af5e78f0229ae8a755217315bb91ea2d3"
+      "sha512": "53718489c74e732ad5fbe9c22a5c41607a0498fe5e963c284851638c75d3ec67eba7755251288913a6915a03edd7f04b6718046ffab056843016b49d7d4eb76a"
     }
   ],
   "measure_info": {
