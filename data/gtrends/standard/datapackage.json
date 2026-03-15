@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 801413,
+      "bytes": 803583,
       "encoding": "ISO-8859-1",
-      "md5": "f39e6c2186ff5e8b99aa0fdd83cb948c",
+      "md5": "890155b7ecca8ed9c3d6a34c062173ec",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "50f92ede3f7d55d95dc5c6d5b21589d57a8ddcd9",
           "91312cf60caa0ae7b742305da3f565927a7e70db",
           "2d804496914ca67fb2aec9c8b6c8354c99bdb605",
           "385a81b94112ead098420ac7f44323910b9cde9f",
@@ -98,6 +99,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -111,6 +113,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Mar 8 04:14:20 2026 +0000",
           "Sun Mar 1 04:25:58 2026 +0000",
           "Sun Feb 22 04:21:13 2026 +0000",
           "Sun Feb 15 04:25:34 2026 +0000",
@@ -192,6 +195,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "removes package parts",
           "scheduled data build",
           "scheduled data build",
@@ -214,36 +218,89 @@
           "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
         }
       ],
-      "id_length": 0,
+      "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-08 04:14:13.133519",
-      "last_modified": "2026-03-08 04:14:13.133519",
+      "created": "2026-03-15 04:35:36.210759",
+      "last_modified": "2026-03-15 04:35:36.210759",
       "vintage": {},
-      "row_count": 33020,
+      "row_count": 33072,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 32968,
-            "time_range": [0, 634],
-            "type": "integer",
-            "missing": 635,
-            "mean": 28.960784,
-            "sd": 15.677077,
-            "min": 1,
-            "max": 56
+            "duplicates": 33020,
+            "info": [],
+            "time_range": [0, 635],
+            "type": "string",
+            "missing": 0,
+            "table": {
+              "01": 636,
+              "02": 636,
+              "04": 636,
+              "05": 636,
+              "06": 636,
+              "08": 636,
+              "09": 636,
+              "10": 636,
+              "11": 636,
+              "12": 636,
+              "13": 636,
+              "15": 636,
+              "16": 636,
+              "17": 636,
+              "18": 636,
+              "19": 636,
+              "20": 636,
+              "21": 636,
+              "22": 636,
+              "23": 636,
+              "24": 636,
+              "25": 636,
+              "26": 636,
+              "27": 636,
+              "28": 636,
+              "29": 636,
+              "30": 636,
+              "31": 636,
+              "32": 636,
+              "33": 636,
+              "34": 636,
+              "35": 636,
+              "36": 636,
+              "37": 636,
+              "38": 636,
+              "39": 636,
+              "40": 636,
+              "41": 636,
+              "42": 636,
+              "44": 636,
+              "45": 636,
+              "46": 636,
+              "47": 636,
+              "48": 636,
+              "49": 636,
+              "50": 636,
+              "51": 636,
+              "53": 636,
+              "54": 636,
+              "55": 636,
+              "56": 636,
+              "NA": 636
+            }
           },
           {
             "name": "time",
-            "duplicates": 32385,
-            "time_range": [0, 634],
+            "duplicates": 32436,
+            "info": [],
+            "time_range": [0, 635],
             "type": "string",
             "missing": 0,
             "table": {
@@ -881,56 +938,153 @@
               "2026-02-08": 52,
               "2026-02-15": 52,
               "2026-02-22": 52,
-              "2026-03-01": 52
+              "2026-03-01": 52,
+              "2026-03-08": 52
             }
           },
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 26657,
-            "time_range": [0, 634],
+            "info": {
+              "full_name": "gtrends_rsv_vaccine",
+              "measure": "gtrends_rsv_vaccine",
+              "short_name": "Google Search Volume: rsv_vaccine",
+              "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+              "short_description": "Google search volume of the term rsv_vaccine.",
+              "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv_vaccine"
+            },
+            "time_range": [0, 635],
             "type": "float",
             "missing": 0,
-            "mean": 46.206689,
-            "sd": 136.611143,
+            "mean": 46.310218,
+            "sd": 136.532478,
             "min": 0,
             "max": 1690.800386
           },
           {
             "name": "gtrends_naloxone",
             "duplicates": 20924,
-            "time_range": [0, 634],
+            "info": {
+              "full_name": "gtrends_naloxone",
+              "measure": "gtrends_naloxone",
+              "short_name": "Google Search Volume: naloxone",
+              "long_name": "Google Trends Search Volume of Term naloxone",
+              "short_description": "Google search volume of the term naloxone.",
+              "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_naloxone"
+            },
+            "time_range": [0, 635],
             "type": "float",
             "missing": 0,
-            "mean": 31.636417,
-            "sd": 56.7752,
+            "mean": 31.727307,
+            "sd": 56.78205,
             "min": 0,
             "max": 1817.846215
           },
           {
             "name": "gtrends_overdose",
             "duplicates": 2802,
-            "time_range": [0, 634],
+            "info": {
+              "full_name": "gtrends_overdose",
+              "measure": "gtrends_overdose",
+              "short_name": "Google Search Volume: overdose",
+              "long_name": "Google Trends Search Volume of Term overdose",
+              "short_description": "Google search volume of the term overdose.",
+              "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_overdose"
+            },
+            "time_range": [0, 635],
             "type": "float",
             "missing": 0,
-            "mean": 637.176071,
-            "sd": 281.052949,
+            "mean": 637.053496,
+            "sd": 280.865739,
             "min": 0,
             "max": 4590.231121
           },
           {
             "name": "gtrends_rsv",
             "duplicates": 10553,
-            "time_range": [0, 634],
+            "info": {
+              "full_name": "gtrends_rsv",
+              "measure": "gtrends_rsv",
+              "short_name": "Google Search Volume: rsv",
+              "long_name": "Google Trends Search Volume of Term rsv",
+              "short_description": "Google search volume of the term rsv.",
+              "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv"
+            },
+            "time_range": [0, 635],
             "type": "float",
             "missing": 0,
-            "mean": 528.681741,
-            "sd": 894.427204,
+            "mean": 529.649857,
+            "sd": 894.132345,
             "min": 0,
             "max": 12136.048552
           }
         ]
       },
-      "sha512": "e92e1748384f88bfc3bc8ebfa91bfaa4392718f790332e1a75a55bbacd8407548b2a0e2527e442422681a4d811b9d3612db50239c52dc8f8601c41f4ecff1e8d"
+      "sha512": "b63561c6b78b1072fce4d35dccaddb6ce9feb2134b62f06cc8ae25a3bd04441721fc87894ca92cdecb39d9a61c34114c6c25d97278f86dce726b2334a6839e27"
     }
   ],
   "measure_info": {
