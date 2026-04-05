@@ -4,8 +4,8 @@
   "scripts": [
     {
       "path": "build.R",
-      "last_run": "2026-04-04 04:22:07",
-      "run_time": 0.343,
+      "last_run": "2026-04-05 04:40:57",
+      "run_time": 0.356,
       "last_status": {
         "log": [],
         "success": true
@@ -19,7 +19,7 @@
   },
   "standard_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
-    "./data/gtrends/standard/data.csv.gz": "65c77521feca807817957875adf91dc5",
+    "./data/gtrends/standard/data.csv.gz": "24ccaca18025524d1a34c91a5044fb0e",
     "./data/wastewater/standard/data.csv.gz": "b1c1e62bd9a3a0a5d2f105498d0154f6"
   },
   "checked": "2026-03-04 04:12:21",
@@ -29,9 +29,9 @@
     }
   },
   "dist_state": {
-    "./data/bundle_respiratory/dist/data.parquet": "97f6c157df0d5de4157dd331b7e0d1b9",
+    "./data/bundle_respiratory/dist/data.parquet": "fe4ed1f0d097ea2884aedb2f41b2e8ad",
     "./data/epic/standard/datapackage.json": "bf8f0e0ec8cb1d2169154247a81384d0",
-    "./data/gtrends/standard/datapackage.json": "e3aa833c1ef3a5b94a9a1bbb00b669e2",
+    "./data/gtrends/standard/datapackage.json": "d420fe7e2c725dd9663b082ca7787a06",
     "./data/wastewater/standard/datapackage.json": "0aecf0e6eedb075053f0975707fd1284"
   }
 }
